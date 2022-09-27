@@ -10,9 +10,9 @@
 
 :root {
   --main-color: #1ae624;
-  --main-color-dark: #41b30d;
-  --main-color-light: #62e604;
-  --text-color: #36004b;
+  --main-color-dark: #09d413fb;
+  --main-color-light: #6bec0f;
+  --text-color: #2d033d;
 }
 
 body {
@@ -38,9 +38,9 @@ nav {
   left: 0;
   height: 100vh;
   background-color: var(--main-color);
-  width: 16rem;
+  width: 14rem;
   padding: 1.8rem 0.85rem;
-  color: #fff;
+  color: #2d033d;
   display: flex;
   flex-direction: column;
   transition: width 0.5s ease-in-out;
@@ -93,38 +93,6 @@ main .copyright span {
   padding-left: 0.5rem;
   font-weight: 600;
   font-size: 1.15rem;
-}
-
-.shrink-btn {
-  position: absolute;
-  top: 50%;
-  height: 27px;
-  padding: 0 0.3rem;
-  background-color: var(--main-color);
-  border-radius: 6px;
-  cursor: pointer;
-  box-shadow: 0 3px 10px -3px rgba(70, 46, 118, 0.3);
-  right: -2.65rem;
-  transform: translateY(-50%) translateX(-8px);
-  opacity: 0;
-  pointer-events: none;
-  transition: 0.3s;
-}
-
-.shrink-btn i {
-  line-height: 27px;
-  transition: 0.3s;
-}
-
-.shrink-btn:hover {
-  background-color: var(--main-color-dark);
-}
-
-nav:hover .shrink-btn,
-.shrink-btn.hovered {
-  transform: translateY(-50%) translateX(0px);
-  opacity: 1;
-  pointer-events: all;
 }
 
 .search {
