@@ -1,0 +1,3 @@
++ nowe ikonki
++ sprawne przeskakiwanie pomiedzy kontentem za pomoca autorskiego skryptu "show-hide.js"
++ dodanie "kart nauczycieli w zakladce Nauczyciele"
