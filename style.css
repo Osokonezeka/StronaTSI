@@ -19,7 +19,7 @@ body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   background-color: #e7e7e7;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   position: relative;
 }
@@ -36,7 +36,7 @@ nav {
   position: sticky;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   background-color: var(--main-color);
   width: 14rem;
   padding: 1.8rem 0.85rem;
@@ -48,7 +48,7 @@ nav {
 
 nav::before {
   content: "";
-  position: absolute;
+  position: fixed;
   width: 2rem;
   height: 100%;
   top: 0;
@@ -138,11 +138,18 @@ main .copyright span {
   align-items: center;
   height: 53px;
 }
+#teacher-icon{
+ width: 30px;
+ padding-left: 0;
+ margin-left: 0;
+ left: 0;
+}
 
 .icon {
+  padding: 5px;
   font-size: 1.3rem;
   text-align: center;
-  min-width: 3.7rem;
+  min-width: 1.9rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -236,4 +243,7 @@ main .copyright span {
 
 .hide {
   transition: opacity 0.3s 0.2s;
+}
+.link-hide{
+  padding-left: 10px;
 }
